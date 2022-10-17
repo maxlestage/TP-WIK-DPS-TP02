@@ -1,0 +1,15 @@
+FROM alpine/git:latest
+WORKDIR /clone-workspace
+RUN git clone https://github.com/umairnow/LocalizableGenerator.git
+
+FROM mattes/hello-world-nginx
+COPY --from=0 /clone-workspace/LocalizableGenerator /path/to/file
+
+FROM rust:1.64
+LABEL org.opencontainers.image.authors="maxime.lestage@ynov.com"
+WORKDIR /app
+COPY . .
+RUN cargo install --path .
+RUN cargo build --release
+CMD ./target/release/tp_wik_dps_tp01
+EXPOSE 9000
