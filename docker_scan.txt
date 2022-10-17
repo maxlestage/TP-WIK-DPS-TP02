@@ -1,0 +1,2168 @@
+# DOCKER SCAN Maxime Lestage devOps TP02 Ynov 2022. 
+
+Testing tp_wik_dps_tp02...
+
+✗ Low severity vulnerability found in wget
+  Description: Open Redirect
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-WGET-1277610
+  Introduced through: wget@1.21-1+deb11u1
+  From: wget@1.21-1+deb11u1
+
+✗ Low severity vulnerability found in util-linux/uuid-dev
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-UTILLINUX-2401081
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta, util-linux@2.36.1-8+deb11u1, util-linux/mount@2.36.1-8+deb11u1, util-linux/bsdutils@1:2.36.1-8+deb11u1, util-linux/libsmartcols1@2.36.1-8+deb11u1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > util-linux/libblkid-dev@2.36.1-8+deb11u1 > util-linux/uuid-dev@2.36.1-8+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > librsvg/librsvg2-dev@2.50.3+dfsg-1 > cairo/libcairo2-dev@1.16.0-5 > fontconfig/libfontconfig1-dev@2.13.1-4.2 > fontconfig/libfontconfig-dev@2.13.1-4.2 > util-linux/uuid-dev@2.36.1-8+deb11u1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > util-linux/libblkid-dev@2.36.1-8+deb11u1
+  and 11 more...
+
+✗ Low severity vulnerability found in unzip
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-UNZIP-2387325
+  Introduced through: unzip@6.0-26+deb11u1
+  From: unzip@6.0-26+deb11u1
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2434417
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2440571
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2774162
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Stack-based Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2774167
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2823289
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2823291
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2938519
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2938520
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2938525
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2964237
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2987009
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2987011
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-2987014
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-3008946
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-3012393
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-3012398
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Release of Invalid Pointer or Reference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-3012399
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-514595
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-516778
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-518574
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-520936
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-531474
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TIFF-531590
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > tiff/libtiffxx5@4.2.0-1+deb11u1 > tiff/libtiff5@4.2.0-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-TAR-523480
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > tar@1.34+dfsg-1
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Authentication Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-1291054
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, util-linux/mount@2.36.1-8+deb11u1, procps@2:3.3.17-5, openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u1
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u1
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > systemd/libsystemd0@247.3-7+deb11u1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-524969
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, util-linux/mount@2.36.1-8+deb11u1, procps@2:3.3.17-5, openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u1
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u1
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > systemd/libsystemd0@247.3-7+deb11u1
+  and 5 more...
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: CVE-2021-36690
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-1569419
+  Introduced through: sqlite3/libsqlite3-dev@3.34.1-3, gnupg2/gnupg@2.2.27-2+deb11u2, subversion@1.14.1-3+deb11u1, mercurial@5.6.1-4
+  From: sqlite3/libsqlite3-dev@3.34.1-3 > sqlite3/libsqlite3-0@3.34.1-3
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: subversion@1.14.1-3+deb11u1 > subversion/libsvn1@1.14.1-3+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  and 2 more...
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-2407045
+  Introduced through: sqlite3/libsqlite3-dev@3.34.1-3, gnupg2/gnupg@2.2.27-2+deb11u2, subversion@1.14.1-3+deb11u1, mercurial@5.6.1-4
+  From: sqlite3/libsqlite3-dev@3.34.1-3 > sqlite3/libsqlite3-0@3.34.1-3
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: subversion@1.14.1-3+deb11u1 > subversion/libsvn1@1.14.1-3+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  and 2 more...
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Improper Validation of Array Index
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-2959400
+  Introduced through: sqlite3/libsqlite3-dev@3.34.1-3, gnupg2/gnupg@2.2.27-2+deb11u2, subversion@1.14.1-3+deb11u1, mercurial@5.6.1-4
+  From: sqlite3/libsqlite3-dev@3.34.1-3 > sqlite3/libsqlite3-0@3.34.1-3
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: subversion@1.14.1-3+deb11u1 > subversion/libsvn1@1.14.1-3+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  and 2 more...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SHADOW-526940
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1, gnupg2/dirmngr@2.2.27-2+deb11u2, shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1 > shadow/passwd@1:4.8.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1
+  From: shadow/login@1:4.8.1-1
+  and 1 more...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SHADOW-528840
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1, gnupg2/dirmngr@2.2.27-2+deb11u2, shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1 > shadow/passwd@1:4.8.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1
+  From: shadow/login@1:4.8.1-1
+  and 1 more...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-SHADOW-539870
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1, gnupg2/dirmngr@2.2.27-2+deb11u2, shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1 > shadow/passwd@1:4.8.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1
+  From: shadow/login@1:4.8.1-1
+  and 1 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: CVE-2020-27619
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1021152
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1085113
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: CVE-2021-29921
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1290158
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1570176
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1579738
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Unchecked Return Value
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-2329042
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Arbitrary Code Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-2388383
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Arbitrary Command Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-2764968
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Incorrect Type Conversion or Cast
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3017608
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Open Redirect
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3032984
+  Introduced through: mercurial@5.6.1-4
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: mercurial@5.6.1-4 > python3-defaults/python3@3.9.2-3 > python3-defaults/python3-minimal@3.9.2-3 > python3.9/python3.9-minimal@3.9.2-1
+  and 4 more...
+
+✗ Low severity vulnerability found in postgresql-13/libpq5
+  Description: Improper Control of Dynamically-Managed Code Resources
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-POSTGRESQL13-2980116
+  Introduced through: postgresql-13/libpq-dev@13.8-0+deb11u1
+  From: postgresql-13/libpq-dev@13.8-0+deb11u1 > postgresql-13/libpq5@13.8-0+deb11u1
+  From: postgresql-13/libpq-dev@13.8-0+deb11u1
+
+✗ Low severity vulnerability found in perl/perl-modules-5.32
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PERL-1925976
+  Introduced through: autoconf@2.69-14, git@1:2.30.2-1, meta-common-packages@meta
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/perl-modules-5.32@5.32.1-4+deb11u2
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2 > perl/perl-modules-5.32@5.32.1-4+deb11u2
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2
+  and 3 more...
+
+✗ Low severity vulnerability found in perl/perl-modules-5.32
+  Description: Link Following
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PERL-532614
+  Introduced through: autoconf@2.69-14, git@1:2.30.2-1, meta-common-packages@meta
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/perl-modules-5.32@5.32.1-4+deb11u2
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2 > perl/perl-modules-5.32@5.32.1-4+deb11u2
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2
+  and 3 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre16-3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE3-523392
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, meta-common-packages@meta
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre32-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcrecpp0v5@2:8.39-13
+  and 2 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre16-3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE3-525075
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, meta-common-packages@meta
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre32-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcrecpp0v5@2:8.39-13
+  and 2 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre16-3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE3-529298
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, meta-common-packages@meta
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre32-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcrecpp0v5@2:8.39-13
+  and 2 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre16-3
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE3-529490
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, meta-common-packages@meta
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre32-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcrecpp0v5@2:8.39-13
+  and 2 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre16-3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PCRE3-572353
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, meta-common-packages@meta
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre16-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcre32-3@2:8.39-13
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > pcre3/libpcre3-dev@2:8.39-13 > pcre3/libpcrecpp0v5@2:8.39-13
+  and 2 more...
+
+✗ Low severity vulnerability found in patch
+  Description: Release of Invalid Pointer or Reference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-2324789
+  Introduced through: patch@2.7.6-7, dpkg/dpkg-dev@1.20.12
+  From: patch@2.7.6-7
+  From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-525129
+  Introduced through: patch@2.7.6-7, dpkg/dpkg-dev@1.20.12
+  From: patch@2.7.6-7
+  From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Directory Traversal
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-525153
+  Introduced through: patch@2.7.6-7, dpkg/dpkg-dev@1.20.12
+  From: patch@2.7.6-7
+  From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-PATCH-526305
+  Introduced through: patch@2.7.6-7, dpkg/dpkg-dev@1.20.12
+  From: patch@2.7.6-7
+  From: dpkg/dpkg-dev@1.20.12 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in openssl
+  Description: Inadequate Encryption Strength
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-2941242
+  Introduced through: ca-certificates@20210119, meta-common-packages@meta, openssl/libssl-dev@1.1.1n-0+deb11u3, mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u3
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u3
+  From: openssl/libssl-dev@1.1.1n-0+deb11u3
+  and 1 more...
+
+✗ Low severity vulnerability found in openssl
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-518334
+  Introduced through: ca-certificates@20210119, meta-common-packages@meta, openssl/libssl-dev@1.1.1n-0+deb11u3, mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u3
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u3
+  From: openssl/libssl-dev@1.1.1n-0+deb11u3
+  and 1 more...
+
+✗ Low severity vulnerability found in openssl
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-525332
+  Introduced through: ca-certificates@20210119, meta-common-packages@meta, openssl/libssl-dev@1.1.1n-0+deb11u3, mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: ca-certificates@20210119 > openssl@1.1.1n-0+deb11u3
+  From: meta-common-packages@meta > openssl/libssl1.1@1.1.1n-0+deb11u3
+  From: openssl/libssl-dev@1.1.1n-0+deb11u3
+  and 1 more...
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: CVE-2016-20012
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-1585650
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: CVE-2021-41617
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-1660415
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Improper Authentication
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-2422621
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-517822
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-520976
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Improper Authentication
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-529002
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Access Restriction Bypass
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-529482
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Inappropriate Encoding for Output Context
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-530703
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-574760
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openssh/openssh-client
+  Description: OS Command Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENSSH-590139
+  Introduced through: openssh/openssh-client@1:8.4p1-5+deb11u1
+  From: openssh/openssh-client@1:8.4p1-5+deb11u1
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Improper Initialization
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-521320
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, curl@7.74.0-1.3+deb11u3, git@1:2.30.2-1, postgresql-13/libpq-dev@13.8-0+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: curl@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 1 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-531344
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, curl@7.74.0-1.3+deb11u3, git@1:2.30.2-1, postgresql-13/libpq-dev@13.8-0+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: curl@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 1 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-531747
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, curl@7.74.0-1.3+deb11u3, git@1:2.30.2-1, postgresql-13/libpq-dev@13.8-0+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: curl@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 1 more...
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Improper Certificate Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-584937
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, curl@7.74.0-1.3+deb11u3, git@1:2.30.2-1, postgresql-13/libpq-dev@13.8-0+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: curl@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: git@1:2.30.2-1 > curl/libcurl3-gnutls@7.74.0-1.3+deb11u3 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 1 more...
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-1247329
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-1301277
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Access of Uninitialized Pointer
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-2434865
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-515201
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-515749
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-516225
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-517708
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-518208
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-522491
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-524264
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-524898
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-525517
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-526311
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-527081
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-528361
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-529941
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openjpeg2/libopenjp2-7
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENJPEG2-532154
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3 > openjpeg2/libopenjp2-7@2.4.0-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openjpeg2/libopenjp2-7-dev@2.4.0-3
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1300562
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Integer Underflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1300565
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1300568
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1304909
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1913908
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1913915
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in openexr/libopenexr25
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-522136
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Low severity vulnerability found in ncurses/libncursesw6
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-NCURSES-1655741
+  Introduced through: procps@2:3.3.17-5, ncurses/libncurses5-dev@6.2+20201114-2, gnupg2/gnupg@2.2.27-2+deb11u2, mercurial@5.6.1-4, meta-common-packages@meta, ncurses/libncursesw5-dev@6.2+20201114-2, readline/libreadline-dev@8.1-1, ncurses/ncurses-base@6.2+20201114-2
+  From: procps@2:3.3.17-5 > ncurses/libncursesw6@6.2+20201114-2
+  From: ncurses/libncurses5-dev@6.2+20201114-2 > ncurses/libncurses-dev@6.2+20201114-2 > ncurses/libncursesw6@6.2+20201114-2
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg-agent@2.2.27-2+deb11u2 > pinentry/pinentry-curses@1.1.0-4 > ncurses/libncursesw6@6.2+20201114-2
+  and 11 more...
+
+✗ Low severity vulnerability found in ncurses/libncursesw6
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-NCURSES-2767191
+  Introduced through: procps@2:3.3.17-5, ncurses/libncurses5-dev@6.2+20201114-2, gnupg2/gnupg@2.2.27-2+deb11u2, mercurial@5.6.1-4, meta-common-packages@meta, ncurses/libncursesw5-dev@6.2+20201114-2, readline/libreadline-dev@8.1-1, ncurses/ncurses-base@6.2+20201114-2
+  From: procps@2:3.3.17-5 > ncurses/libncursesw6@6.2+20201114-2
+  From: ncurses/libncurses5-dev@6.2+20201114-2 > ncurses/libncurses-dev@6.2+20201114-2 > ncurses/libncursesw6@6.2+20201114-2
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg-agent@2.2.27-2+deb11u2 > pinentry/pinentry-curses@1.1.0-4 > ncurses/libncursesw6@6.2+20201114-2
+  and 11 more...
+
+✗ Low severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2389248
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ Low severity vulnerability found in m4
+  Description: CVE-2008-1688
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-M4-517010
+  Introduced through: autoconf@2.69-14
+  From: autoconf@2.69-14 > m4@1.4.18-5
+
+✗ Low severity vulnerability found in m4
+  Description: CVE-2008-1687
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-M4-525846
+  Introduced through: autoconf@2.69-14
+  From: autoconf@2.69-14 > m4@1.4.18-5
+
+✗ Low severity vulnerability found in libxslt/libxslt1.1
+  Description: Use of Insufficiently Random Values
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBXSLT-514942
+  Introduced through: libxslt/libxslt1-dev@1.1.34-4+deb11u1
+  From: libxslt/libxslt1-dev@1.1.34-4+deb11u1 > libxslt/libxslt1.1@1.1.34-4+deb11u1
+  From: libxslt/libxslt1-dev@1.1.34-4+deb11u1
+
+✗ Low severity vulnerability found in libxml2/libxml2-dev
+  Description: Cross-site Scripting (XSS)
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-2964223
+  Introduced through: libxml2/libxml2-dev@2.9.10+dfsg-6.7+deb11u2, libxslt/libxslt1-dev@1.1.34-4+deb11u1, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: libxml2/libxml2-dev@2.9.10+dfsg-6.7+deb11u2
+  From: libxslt/libxslt1-dev@1.1.34-4+deb11u1 > libxml2/libxml2-dev@2.9.10+dfsg-6.7+deb11u2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libxml2/libxml2-dev@2.9.10+dfsg-6.7+deb11u2
+  and 1 more...
+
+✗ Low severity vulnerability found in libwmf/libwmf0.2-7
+  Description: Numeric Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBWMF-514692
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17
+
+✗ Low severity vulnerability found in libwmf/libwmf0.2-7
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBWMF-517351
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17
+
+✗ Low severity vulnerability found in libwmf/libwmf0.2-7
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBWMF-519792
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17
+
+✗ Low severity vulnerability found in libwmf/libwmf0.2-7
+  Description: Numeric Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBWMF-527814
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17 > libwmf/libwmf0.2-7@0.2.8.4-17
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17
+
+✗ Low severity vulnerability found in libwebp/libwebpdemux2
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBWEBP-523457
+  Introduced through: libwebp/libwebp-dev@0.6.1-2.1, imagemagick@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: libwebp/libwebp-dev@0.6.1-2.1 > libwebp/libwebpdemux2@0.6.1-2.1
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libwebp/libwebpdemux2@0.6.1-2.1
+  From: libwebp/libwebp-dev@0.6.1-2.1 > libwebp/libwebpmux3@0.6.1-2.1
+  and 3 more...
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315627
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, gnupg2/dirmngr@2.2.27-2+deb11u2
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315629
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, gnupg2/dirmngr@2.2.27-2+deb11u2
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315635
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, gnupg2/dirmngr@2.2.27-2+deb11u2
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315641
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, gnupg2/dirmngr@2.2.27-2+deb11u2
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1 > libsepol/libsepol1@3.1-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > adduser@3.118 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > util-linux/libmount-dev@2.36.1-8+deb11u1 > libselinux/libselinux1-dev@3.1-3 > libsepol/libsepol1-dev@3.1-1
+
+✗ Low severity vulnerability found in libpng1.6/libpng-dev
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBPNG16-2363923
+  Introduced through: libpng1.6/libpng-dev@1.6.37-3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: libpng1.6/libpng-dev@1.6.37-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libpng1.6/libpng-dev@1.6.37-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1 > freetype/libfreetype-dev@2.10.4+dfsg-1+deb11u1 > libpng1.6/libpng-dev@1.6.37-3
+  and 3 more...
+
+✗ Low severity vulnerability found in libpng1.6/libpng-dev
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBPNG16-529373
+  Introduced through: libpng1.6/libpng-dev@1.6.37-3, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: libpng1.6/libpng-dev@1.6.37-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libpng1.6/libpng-dev@1.6.37-3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1 > freetype/libfreetype-dev@2.10.4+dfsg-1+deb11u1 > libpng1.6/libpng-dev@1.6.37-3
+  and 3 more...
+
+✗ Low severity vulnerability found in libjpeg-turbo/libjpeg-dev
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBJPEGTURBO-2932112
+  Introduced through: libjpeg-turbo/libjpeg-dev@1:2.0.6-4, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: libjpeg-turbo/libjpeg-dev@1:2.0.6-4
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libjpeg-turbo/libjpeg-dev@1:2.0.6-4
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > djvulibre/libdjvulibre-dev@3.5.28-2 > libjpeg-turbo/libjpeg-dev@1:2.0.6-4
+  and 3 more...
+
+✗ Low severity vulnerability found in libheif/libheif1
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBHEIF-1910705
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBGCRYPT20-1297892
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, apt@2.2.4, gnupg2/gnupg@2.2.27-2+deb11u2, libxslt/libxslt1-dev@1.1.34-4+deb11u1, procps@2:3.3.17-5, curl@7.74.0-1.3+deb11u3
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpgv@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  and 10 more...
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBGCRYPT20-523947
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, apt@2.2.4, gnupg2/gnupg@2.2.27-2+deb11u2, libxslt/libxslt1-dev@1.1.34-4+deb11u1, procps@2:3.3.17-5, curl@7.74.0-1.3+deb11u3
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpgv@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  and 10 more...
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: CVE-2020-21605
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585960
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585961
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585963
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585964
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585966
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585967
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585984
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585991
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585995
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1585997
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1586004
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1586007
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-1586008
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-2359235
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-2359240
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-2359244
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: CVE-2021-36411
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-2359245
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: CVE-2021-35452
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-2359246
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in libde265/libde265-0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-LIBDE265-2445047
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > libde265/libde265-0@1.0.8-1
+
+✗ Low severity vulnerability found in krb5/libgssrpc4
+  Description: CVE-2004-0971
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-KRB5-519904
+  Introduced through: krb5/libkrb5-dev@1.18.3-6+deb11u2, meta-common-packages@meta
+  From: krb5/libkrb5-dev@1.18.3-6+deb11u2 > krb5/krb5-multidev@1.18.3-6+deb11u2 > krb5/libgssrpc4@1.18.3-6+deb11u2
+  From: krb5/libkrb5-dev@1.18.3-6+deb11u2 > krb5/krb5-multidev@1.18.3-6+deb11u2 > krb5/libkadm5clnt-mit12@1.18.3-6+deb11u2 > krb5/libgssrpc4@1.18.3-6+deb11u2
+  From: krb5/libkrb5-dev@1.18.3-6+deb11u2 > krb5/krb5-multidev@1.18.3-6+deb11u2 > krb5/libkadm5srv-mit12@1.18.3-6+deb11u2 > krb5/libgssrpc4@1.18.3-6+deb11u2
+  and 10 more...
+
+✗ Low severity vulnerability found in krb5/libgssrpc4
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-KRB5-524883
+  Introduced through: krb5/libkrb5-dev@1.18.3-6+deb11u2, meta-common-packages@meta
+  From: krb5/libkrb5-dev@1.18.3-6+deb11u2 > krb5/krb5-multidev@1.18.3-6+deb11u2 > krb5/libgssrpc4@1.18.3-6+deb11u2
+  From: krb5/libkrb5-dev@1.18.3-6+deb11u2 > krb5/krb5-multidev@1.18.3-6+deb11u2 > krb5/libkadm5clnt-mit12@1.18.3-6+deb11u2 > krb5/libgssrpc4@1.18.3-6+deb11u2
+  From: krb5/libkrb5-dev@1.18.3-6+deb11u2 > krb5/krb5-multidev@1.18.3-6+deb11u2 > krb5/libkadm5srv-mit12@1.18.3-6+deb11u2 > krb5/libgssrpc4@1.18.3-6+deb11u2
+  and 10 more...
+
+✗ Low severity vulnerability found in jbigkit/libjbig-dev
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-JBIGKIT-514977
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > tiff/libtiff-dev@4.2.0-1+deb11u1 > jbigkit/libjbig-dev@2.1-3.1+b2
+  From: meta-common-packages@meta > jbigkit/libjbig0@2.1-3.1+b2
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1075500
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1075505
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1075508
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1078460
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1085782
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1244104
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1246262
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1246513
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Divide By Zero
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1247328
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-1584525
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2431244
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2441371
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2441374
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2812515
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2928981
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2928984
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Incorrect Type Conversion or Cast
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-2928988
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Memory Leak
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-3008094
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-3027309
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: CVE-2005-0406
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-517389
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-517989
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-524566
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Resource Exhaustion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-524567
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-527684
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-527794
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in imagemagick/imagemagick-6-common
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-IMAGEMAGICK-530647
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3, imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickwand-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6-common@8:6.9.11.60+dfsg-1.3
+  and 24 more...
+
+✗ Low severity vulnerability found in harfbuzz/libharfbuzz0b
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-HARFBUZZ-2934730
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > harfbuzz/libharfbuzz0b@2.7.4-1
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GNUTLS28-515971
+  Introduced through: apt@2.2.4, gnupg2/dirmngr@2.2.27-2+deb11u2, wget@1.21-1+deb11u1, git@1:2.30.2-1, curl@7.74.0-1.3+deb11u3
+  From: apt@2.2.4 > gnutls28/libgnutls30@3.7.1-5+deb11u2
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u2
+  From: wget@1.21-1+deb11u1 > gnutls28/libgnutls30@3.7.1-5+deb11u2
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Out-of-Bounds
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-521063
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-521199
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use of Insufficiently Random Values
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-522385
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Information Exposure
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-529848
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: CVE-2019-1010023
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-531451
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-531492
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Resource Management Errors
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIBC-532215
+  Introduced through: glibc/libc-bin@2.31-13+deb11u4, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc-dev-bin@2.31-13+deb11u4
+  From: meta-common-packages@meta > glibc/libc6@2.31-13+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in glib2.0/libglib2.0-data
+  Description: Cryptographic Issues
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GLIB20-518210
+  Introduced through: glib2.0/libglib2.0-dev@2.66.8-1, imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > glib2.0/libglib2.0-bin@2.66.8-1 > glib2.0/libglib2.0-data@2.66.8-1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > glib2.0/libglib2.0-bin@2.66.8-1
+  From: glib2.0/libglib2.0-dev@2.66.8-1 > glib2.0/libglib2.0-dev-bin@2.66.8-1
+  and 5 more...
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Exposure of Resource to Wrong Sphere
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GIT-2399903
+  Introduced through: git@1:2.30.2-1
+  From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
+  From: git@1:2.30.2-1
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Uncontrolled Search Path Element
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GIT-2635965
+  Introduced through: git@1:2.30.2-1
+  From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
+  From: git@1:2.30.2-1
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Uncontrolled Search Path Element
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GIT-2949145
+  Introduced through: git@1:2.30.2-1
+  From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
+  From: git@1:2.30.2-1
+
+✗ Low severity vulnerability found in git/git-man
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-GIT-514769
+  Introduced through: git@1:2.30.2-1
+  From: git@1:2.30.2-1 > git/git-man@1:2.30.2-1
+  From: git@1:2.30.2-1
+
+✗ Low severity vulnerability found in freetype/libfreetype-dev
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-FREETYPE-2848681
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1 > freetype/libfreetype-dev@2.10.4+dfsg-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > libwmf/libwmf-dev@0.2.8.4-17 > freetype/libfreetype6-dev@2.10.4+dfsg-1+deb11u1
+  and 3 more...
+
+✗ Low severity vulnerability found in expat/libexpat1-dev
+  Description: XML External Entity (XXE) Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-EXPAT-524217
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3, meta-common-packages@meta
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > librsvg/librsvg2-dev@2.50.3+dfsg-1 > cairo/libcairo2-dev@1.16.0-5 > fontconfig/libfontconfig1-dev@2.13.1-4.2 > fontconfig/libfontconfig-dev@2.13.1-4.2 > expat/libexpat1-dev@2.2.10-2+deb11u4
+  From: meta-common-packages@meta > expat/libexpat1@2.2.10-2+deb11u4
+
+✗ Low severity vulnerability found in e2fsprogs/libext2fs2
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-E2FSPROGS-2628459
+  Introduced through: e2fsprogs/libext2fs2@1.46.2-2, e2fsprogs@1.46.2-2, e2fsprogs/libss2@1.46.2-2, e2fsprogs/logsave@1.46.2-2, krb5/libkrb5-dev@1.18.3-6+deb11u2, meta-common-packages@meta
+  From: e2fsprogs/libext2fs2@1.46.2-2
+  From: e2fsprogs@1.46.2-2 > e2fsprogs/libext2fs2@1.46.2-2
+  From: e2fsprogs/libss2@1.46.2-2
+  and 6 more...
+
+✗ Low severity vulnerability found in db5.3/libdb5.3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-DB53-2825168
+  Introduced through: db-defaults/libdb-dev@5.3.1+nmu1, subversion@1.14.1-3+deb11u1, autoconf@2.69-14, gnupg2/dirmngr@2.2.27-2+deb11u2, mercurial@5.6.1-4, curl@7.74.0-1.3+deb11u3
+  From: db-defaults/libdb-dev@5.3.1+nmu1 > db5.3/libdb5.3-dev@5.3.28+dfsg1-0.8 > db5.3/libdb5.3@5.3.28+dfsg1-0.8
+  From: subversion@1.14.1-3+deb11u1 > subversion/libsvn1@1.14.1-3+deb11u1 > db5.3/libdb5.3@5.3.28+dfsg1-0.8
+  From: autoconf@2.69-14 > perl@5.32.1-4+deb11u2 > perl/libperl5.32@5.32.1-4+deb11u2 > db5.3/libdb5.3@5.3.28+dfsg1-0.8
+  and 5 more...
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Insufficiently Protected Credentials
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-CURL-1322659
+  Introduced through: curl@7.74.0-1.3+deb11u3, curl/libcurl4-openssl-dev@7.74.0-1.3+deb11u3, git@1:2.30.2-1
+  From: curl@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3
+  From: curl/libcurl4-openssl-dev@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3
+  From: curl@7.74.0-1.3+deb11u3
+  and 2 more...
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Improper Handling of Exceptional Conditions
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-CURL-1322667
+  Introduced through: curl@7.74.0-1.3+deb11u3, curl/libcurl4-openssl-dev@7.74.0-1.3+deb11u3, git@1:2.30.2-1
+  From: curl@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3
+  From: curl/libcurl4-openssl-dev@7.74.0-1.3+deb11u3 > curl/libcurl4@7.74.0-1.3+deb11u3
+  From: curl@7.74.0-1.3+deb11u3
+  and 2 more...
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-514776
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > coreutils@8.32-4
+
+✗ Low severity vulnerability found in coreutils
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-527269
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > coreutils@8.32-4
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-CAIRO-515907
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > pango1.0/libpangocairo-1.0-0@1.46.2-3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > librsvg/librsvg2-dev@2.50.3+dfsg-1 > cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo2@1.16.0-5
+  and 7 more...
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-CAIRO-517926
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > pango1.0/libpangocairo-1.0-0@1.46.2-3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > librsvg/librsvg2-dev@2.50.3+dfsg-1 > cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo2@1.16.0-5
+  and 7 more...
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-CAIRO-525337
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > pango1.0/libpangocairo-1.0-0@1.46.2-3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > librsvg/librsvg2-dev@2.50.3+dfsg-1 > cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo2@1.16.0-5
+  and 7 more...
+
+✗ Low severity vulnerability found in cairo/libcairo2
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-CAIRO-530691
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > pango1.0/libpangocairo-1.0-0@1.46.2-3 > cairo/libcairo2@1.16.0-5
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > librsvg/librsvg2-dev@2.50.3+dfsg-1 > cairo/libcairo2-dev@1.16.0-5 > cairo/libcairo2@1.16.0-5
+  and 7 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1054596
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Race Condition
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1065551
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1086496
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1244572
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1292158
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1296883
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2321369
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2341553
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2993560
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-3016008
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-3016009
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-3016013
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-3041902
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-517892
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-522743
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-523191
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-524967
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-525795
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-527784
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-528223
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-529902
+  Introduced through: dpkg/dpkg-dev@1.20.12, gcc-defaults/g++@4:10.2.1-1
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: dpkg/dpkg-dev@1.20.12 > binutils@2.35.2-2 > binutils/binutils-aarch64-linux-gnu@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 8 more...
+
+✗ Low severity vulnerability found in apt/libapt-pkg6.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-APT-522585
+  Introduced through: apt/libapt-pkg6.0@2.2.4, apt@2.2.4
+  From: apt/libapt-pkg6.0@2.2.4
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4
+  From: apt@2.2.4
+
+✗ Low severity vulnerability found in aom/libaom0
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-2309717
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Low severity vulnerability found in aom/libaom0
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-2309719
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Low severity vulnerability found in aom/libaom0
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-2309727
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Low severity vulnerability found in aom/libaom0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-2309736
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Medium severity vulnerability found in openexr/libopenexr25
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-1310951
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Medium severity vulnerability found in openexr/libopenexr25
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-OPENEXR-2329539
+  Introduced through: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6-extra@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2 > openexr/libopenexr25@2.5.4-2
+  From: imagemagick/libmagickcore-dev@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-dev@8:6.9.11.60+dfsg-1.3 > openexr/libopenexr-dev@2.5.4-2
+
+✗ Medium severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-38791
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2994376
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-27446
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766283
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766285
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-27449
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766288
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766292
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-27445
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766308
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-27444
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766310
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-27451
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766315
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-27452
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766316
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766356
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766359
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766368
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766381
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766382
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766385
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766386
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766389
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766399
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766407
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766416
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766420
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766425
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766429
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766432
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: SQL Injection
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2766434
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940556
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32086
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940559
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32087
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940561
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32088
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940567
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32089
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940570
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940577
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32083
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940579
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32084
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940587
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940588
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in mariadb-10.5/mariadb-common
+  Description: CVE-2022-32085
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-MARIADB105-2940589
+  Introduced through: mysql-defaults/default-libmysqlclient-dev@1.0.7
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1 > mariadb-10.5/mariadb-common@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb3@1:10.5.15-0+deb11u1
+  From: mysql-defaults/default-libmysqlclient-dev@1.0.7 > mariadb-10.5/libmariadb-dev-compat@1:10.5.15-0+deb11u1 > mariadb-10.5/libmariadb-dev@1:10.5.15-0+deb11u1
+  and 1 more...
+
+✗ High severity vulnerability found in aom/libaom0
+  Description: Out-of-bounds Write
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-1085722
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Critical severity vulnerability found in aom/libaom0
+  Description: Release of Invalid Pointer or Reference
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-1290331
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Critical severity vulnerability found in aom/libaom0
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-1298721
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+✗ Critical severity vulnerability found in aom/libaom0
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-DEBIAN11-AOM-1300249
+  Introduced through: imagemagick@8:6.9.11.60+dfsg-1.3
+  From: imagemagick@8:6.9.11.60+dfsg-1.3 > imagemagick/imagemagick-6.q16@8:6.9.11.60+dfsg-1.3 > imagemagick/libmagickcore-6.q16-6@8:6.9.11.60+dfsg-1.3 > libheif/libheif1@1.11.0-1 > aom/libaom0@1.0.0.errata1-3
+
+
+
+Package manager:   deb
+Project name:      docker-image|tp_wik_dps_tp02
+Docker image:      tp_wik_dps_tp02
+Platform:          linux/arm64
+
+Tested 409 dependencies for known vulnerabilities, found 261 vulnerabilities.
+
+For more free scans that keep your images secure, sign up to Snyk at https://dockr.ly/3ePqVcp
+
+
