@@ -11,7 +11,7 @@ RUN rm ./target/release/deps/tp_wik_dps_tp01*
 RUN cargo build --release
 
 
-FROM rust:1.64
+FROM ubuntu:latest
 LABEL org.opencontainers.image.authors="maxime.lestage@ynov.com"
 WORKDIR /
 COPY --from=build /tp_wik_dps_tp02/target/release/tp_wik_dps_tp01 .
