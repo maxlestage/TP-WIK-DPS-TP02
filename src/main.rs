@@ -37,7 +37,7 @@ async fn main() -> std::io::Result<()> {
             .service(ping)
             .route("/{name}", web::get().to(other))
     })
-    .bind(("127.0.0.1", port.parse().unwrap()))?
+    .bind(("0.0.0.0", port.parse().unwrap()))?
     .run()
     .await
 }
