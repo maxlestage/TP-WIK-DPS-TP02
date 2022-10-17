@@ -8,12 +8,9 @@ async fn ping(req: HttpRequest) -> impl Responder {
 
     for header in req.headers().iter() {
         map.insert(header.0.to_string(), header.1.to_str().unwrap());
-        // println!("je suis ici {}", header_loop_string);
     }
 
     let serialized_data = serde_json::to_string(&map).unwrap();
-    // println!("{}", serialized_data);
-    // println!("Ça debug fort : {:#?}", header_loop_string);
 
     HttpResponse::Ok()
         .append_header(("content-type", "application/json"))
